@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contenitore nero principale */
+
+.container {
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;    
+}
+
+/* Logo sito */
+
+.logo, img {
+    width: 200px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.title > p {
+    color: rgb(0, 219, 0);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Contenuto */
+
+.content {
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(0, 219, 0);
+}
+
+.menu {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Utente monopattino */
+
+.user {
+    color: white;
+    margin-top: 10px;
+}
+
+.user, .paolo {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px; 
+
+}
+
+.user, .place {
+   font-size: 11px;
+   font-weight: 200;
+   line-height: 20px; 
+}
+
+.charge-bar-1 {
+    height: 20px;
+    width: 35%;
+    background: hsl(36deg 89% 64%);
+}
+
+.charge-bar-2 {
+    height: 20px;
+    width: 70%;
+    background: hsl(120deg 74% 44%);
+}
+
+.charge-bar-3 {
+    height: 20px;
+    width: 15%;
+    background: hsl(0deg 49% 50%);
+}
+
+
+
+
+
+
+
+
